@@ -34,7 +34,7 @@ def generate_content(prompt, summary):
     return response.choices[0].message.content
 
 def main():
-    st.title("Wirtualny Copywriter z Analizą OpenAI")
+    st.title("AI Copywriter")
 
     uploaded_file = st.file_uploader("Wgraj plik PDF z czasopismem", type="pdf")
 
